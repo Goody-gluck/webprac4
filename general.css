@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background-color: rgb(52, 52, 52);
+  min-height: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.flex-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+  color: white;
+  padding-top: 30px;
+}
+
+div.first-list li,
+div.second-list li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+div.first-list,
+div.second-list {
+  margin-top: -30px;
+}
+
+div.first-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+div.links {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: white;
+  margin-top: -25px;
+}
+
+div.target a {
+  text-decoration: none
+}
+
+div.target {
+  text-align: justify;
+  width: 270px;
+  height: 100px;
+  line-height: 2.5;
+  margin-top: -10px;
+}
+
+div.anchor {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+div.email {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+div.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 15px;
+}
+
+div.copy {
+  display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 13px;
+}
+
+@media (max-width:800px) {
+  div.people img {
+    height: 420px !important;
+    margin-top: 0px !important;
+    background-size: cover !important;
+  }
+
+  h1 {
+    font-size: 45px !important;
+    padding-left: 30px !important;
+    text-align: center !important;
+    position: absolute !important;
+    top: 130px !important;
+  }
+
+  div.first-logo img {
+    width: 45px;
+  }
+
+  div.hamb img {
+    width: 25px;
+    position: absolute;
+    top: 50px;
+    left: 35px;
+  }
+
+  h2 {
+    padding-left: 90px !important;
+    font-size: 32px !important;
+    position: absolute !important;
+    top: 260px !important;
+  }
+
+  div.profile img {
+    visibility: hidden;
+  }
+
+  div.flex-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    color: white;
+    padding-top: 30px;
+    align-items: start;
+  }
+
+  div.first-footer {
+    margin-bottom: 60px;
+    margin-left: 50px;
+  }
+
+  div.first-list {
+    margin-bottom: 60px;
+    margin-left: 42px;
+  }
+
+  div.second-list {
+    margin-bottom: 60px;
+    margin-left: 42px;
+  }
+  
+  div.links {
+    margin-left: 57px;
+  }
+
+  div.target { 
+    width: 400px;
+    margin-top: -10px;
+    line-height: 2;
+  }
+
+  div.copy {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+  }
+}

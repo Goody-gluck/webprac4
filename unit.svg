@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="188.611" height="44.999" viewBox="0 0 188.611 44.999">
+  <g id="Desktop" transform="translate(0)">
+    <g id="U4-Desktop-Drop-Down" transform="translate(0 0)">
+      <g id="Top-Navigation" transform="translate(0 0)">
+        <g id="Logo" transform="translate(0 0)">
+          <g id="Group-3" transform="translate(0 0.591)">
+            <path id="Fill-1" d="M29.4,2.1V28.15c0,6.491-3.878,10.369-10.348,10.369-6.513,0-10.412-3.878-10.412-10.369V2.1H0V27.16C0,38.73,7.651,46.508,19.053,46.508S38.106,38.73,38.106,27.16V2.1Z" transform="translate(0 -2.1)" fill="#7c878f" fill-rule="evenodd"/>
+          </g>
+          <g id="Group-6" transform="translate(49.036)">
+            <path id="Fill-4" d="M209.153-.1c-11.4,0-19.053,7.777-19.053,19.348v25.27h8.7V18.257c0-6.491,3.878-10.369,10.348-10.369,6.513,0,10.412,3.878,10.412,10.369V44.518h8.641V19.248C228.206,7.677,220.555-.1,209.153-.1" transform="translate(-190.1 0.1)" fill="#7c878f" fill-rule="evenodd"/>
+          </g>
+          <path id="Fill-7" d="M474.9,46.828h8.641V2.8H474.9Z" transform="translate(-374.809 -2.212)" fill="#7c878f" fill-rule="evenodd"/>
+          <path id="Fill-9" d="M570.7,2.8V11h12.962v35.83H592.3V11h12.941V2.8Z" transform="translate(-450.418 -2.212)" fill="#7c878f" fill-rule="evenodd"/>
+          <path id="Fill-10" d="M778.482,2.8h-9.358L748.112,32.286a3.976,3.976,0,0,0-.653,2.993,3.979,3.979,0,0,0,3.941,3.309h16.039v8.262h8.009l.021-15.154h-17.2Z" transform="translate(-589.872 -2.212)" fill="#85bc3b" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

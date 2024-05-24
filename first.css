@@ -1,0 +1,80 @@
+div.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+p.logot {
+  color: rgb(51, 51, 51);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+p.logos {
+  color: rgb(51, 51, 51);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.logoz {
+  color: rgb(51, 51, 51);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+}
+
+div.scala img {
+  margin-bottom: 45px;
+  margin-top: 35px;
+}
+
+div.logos button {
+  padding: 15px 33px;
+  color: rgba(255, 255, 255, 0.945);
+  background-color: rgba(0, 0, 0, 0.925);
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 25px;
+}
+
+div.logos button:hover {
+  opacity: 0.6;
+  transition: 1.2s;
+}
+
+@media (max-width:800px) {
+  div.logos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  div.logos p {
+    white-space: nowrap !important;
+    color: rgb(78, 78, 78) !important;
+  }
+
+ div.zefa,
+ div.talent,
+ div.scala {
+  margin-bottom: 50px;
+ }
+
+ p.logoz {
+  margin-top: 0px;
+ }
+
+ div.scala img {
+  margin-bottom: 35px;
+ }
+  
+}

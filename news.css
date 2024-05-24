@@ -1,0 +1,163 @@
+section.news {
+  background-image: url(images/our-news-back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 90%;
+  color: white;
+  height: 800px;
+  position: relative;
+}
+
+div.communication {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 85px;
+  margin-right: 20px; 
+}
+
+
+div.news-line hr {
+  position: relative;
+  margin-left: 70px;
+  width: 7%;
+  top: 50px;
+  height: 3px;
+  background-color: white;
+  border: none;
+}
+
+div.news-header {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 68px;
+  position: relative;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  align-items: center;
+}
+
+div.news-header button {
+  padding: 13px 35px;
+  border-radius: 50px;
+  background-color: white;
+  font-size: 14px;
+}
+
+div.news-header button:hover {
+  background-color: rgb(156, 156, 156);
+  transition: 1.5s;
+  cursor: pointer;
+}
+
+div.communication img {
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+p.date {
+  color: rgb(209, 172, 55);
+  font-family: raleway;
+  font-size: 1.5em;
+}
+
+p.dates {
+  color: rgb(209, 172, 55);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -1px;
+  font-size: 15px;
+}
+
+div.dated {
+  margin-bottom: 20px;
+}
+
+p.insight {
+  font-size: 20px;
+  letter-spacing: .1px;
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+
+p.teach {
+  line-height: 1.5;
+  color: rgb(235, 235, 235);
+  font-size: 13px;
+  font-weight: lighter;
+  letter-spacing: .3px;
+}
+
+@media (max-width:800px) {
+  section.news {
+    width: 95%;
+    min-height: 2450px;
+  }
+  
+  div.communication {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 65px;
+    margin-top: 35px;
+  }
+
+  p.news {
+    font-size: 20px;
+    margin-left: -25px;
+  }
+
+  div.job-seekers img,
+  div.maximize img,
+  div.insights img,
+  div.interview img {
+    height: 210px;
+    width: 380px;
+  }
+
+  div.communication {
+    margin-left: 40px;
+  }
+
+  p.insight {
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+
+  div.dated {
+    margin-bottom: 10px;
+  }
+
+  div.news-line hr {
+    position: relative;
+    margin-left: 48px;
+    width: 8%;
+    top: 50px;
+    height: 3px;
+    background-color: white;
+    border: none;
+  }
+
+  div.news-header {
+    display: block;
+    color: white;
+  }
+  
+  button.view {
+    display: flex;
+    position: absolute;
+    top: 2250px;
+    border: none;
+    left: 70px;
+  }
+
+  p.teach {
+    font-size: 16px;
+    padding-right: 10px;
+    text-align: left;
+  }
+}
